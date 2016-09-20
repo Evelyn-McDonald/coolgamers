@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html land="en">
+<head>
+    <meta charset="utf-8">
+    <title>Coolgames Coolgamers</title>
+</head>
+<body>
+    <div class="page-wrapper">
+        <div id="galleria">
+            <a href="">
+                <img>
+            </a>
+        </div>
+    </div>
+
+    <!-- load scripts -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="js/galleria-1.4.5.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+    $(function() {
+        // Load the classic theme
+        Galleria.loadTheme('js/galleria.classic.min.js');
+
+        // Initialize Galleria
+        Galleria.run('#galleria');
+    });
+    </script>
+</body>
+</html>
