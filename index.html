@@ -1,30 +1,31 @@
 <!DOCTYPE html>
-<html land="en">
-<head>
-    <meta charset="utf-8">
-    <title>Coolgames Coolgamers</title>
-</head>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Coolgames Coolgamers</title>
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+        <script src="plugins/galleria-1.4.7.min.js"></script>
+    </head>
 <body>
-    <div class="page-wrapper">
+    <div class="content">
+        <h1>For all those times you stole my phone...</h1>
+
         <div id="galleria">
-            <a href="">
-                <img>
-            </a>
+            <a href="assets/images/1.JPG"><img src="assets/images/1.JPG"></a>
+            <a href="assets/images/2.JPG"><img src="assets/images/2.JPG"></a>
         </div>
     </div>
 
-    <!-- load scripts -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-    <script src="js/galleria-1.4.5.min.js"></script>
-    <script src="js/scripts.js"></script>
     <script>
     $(function() {
         // Load the classic theme
-        Galleria.loadTheme('js/galleria.classic.min.js');
+        Galleria.loadTheme('plugins/galleria.classic.min.js');
 
         // Initialize Galleria
         Galleria.run('#galleria');
     });
     </script>
-</body>
+    </body>
 </html>
