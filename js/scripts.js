@@ -17,7 +17,6 @@ $(function() {
     Galleria.loadTheme('plugins/galleria.classic.min.js');
     Galleria.configure({
         transition: 'fade',
-        imageCrop: false,
         thumbnails: false
     });
     Galleria.run('#galleria', {
